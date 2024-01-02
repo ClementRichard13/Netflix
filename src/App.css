@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 20px 0px 20px 50px;
+}
+
+h1,
+h2 {
+  font-weight: 700px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.images {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.images::-webkit-scrollbar {
+  display: none;
+}
+.image-item {
+  width: 300px; /* Ajustez la largeur selon vos besoins */
+  height: 150px; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover; /* Cette propriété assure que l'image conserve son ratio d'aspect */
+}
